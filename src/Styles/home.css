@@ -1,0 +1,43 @@
+/* ContentSection.css */
+
+.content-section {
+   /* margin-top: 10%; */
+   padding-top:10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    height:90vh;
+    width: auto;
+  }
+  
+  .description-side {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .image-side {
+    flex: 1;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h2{
+    color: white;
+  }
+
+.content-section{
+    background-image: url('https://ntwist.com/wp-content/uploads/2022/04/oil-and-gas.jpg');
+}
+
+button{
+    color: white;
+    background-color: rgb(92, 92, 218);
+    align-self: center;
+    border: 0px;
+    padding:10px 20px ;
+    margin:0px;    
+    border-radius: 3px;
+}
