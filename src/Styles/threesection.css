@@ -1,0 +1,49 @@
+/* ThreePartComponent.css */
+
+.three-part-component {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px soild black;
+
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.description-side {
+  flex: 1;
+}
+
+.image-side {
+  flex: 1;
+  margin-left: 20px; 
+}
+
+.middle-section {
+  direction: rtl; 
+}
+
+.middle-section .image-side {
+  margin-right: 20px; 
+}
+
+.text{
+  color: salmon;
+}
+
+button{
+  background-color: rgb(253, 23, 23);
+}
+img{
+  width: 80%;
+}
